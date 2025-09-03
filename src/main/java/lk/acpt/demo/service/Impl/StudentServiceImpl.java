@@ -5,7 +5,9 @@ import lk.acpt.demo.entity.Student;
 import lk.acpt.demo.repo.StudentRepo;
 import lk.acpt.demo.service.StudentService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
+@Service
 public class StudentServiceImpl implements StudentService {
 
     StudentRepo Srepo;
